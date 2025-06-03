@@ -1,0 +1,1805 @@
+﻿EXAMPLE GAME
+
+
+BOOT SEQUENCE INITIATED...
+LOADING CORE SYSTEMS.........
+ESTABLISHING SECURE LINK.........
+CONNECTION WITH LANGLEY ESTABLISHED.
+
+
+AUTHENTICATING TERMINAL...
+STANDBY...
+TERMINAL WB-01 CONFIRMED.
+
+
+PLEASE ENTER PASSWORD
+
+
+***** (Player can enter anything and it will work)
+
+
+WELCOME, STATION CHIEF.
+
+
+PLEASE HOLD FOR INCOMING URGENT MESSAGE...
+RECEIVING TRANSMISSION.........
+DECRYPTING.........
+
+
+[URGENT - EYES ONLY - CIA COMMAND]
+[TIMESTAMP: 07:00 ZULU - OCT 01 1985]
+[ORIGIN: LANGLEY // CIPHERCOM SECURE CHANNEL]
+[DESTINATION: CHIEF, WEST BERLIN STATION]
+
+
+SUBJECT: OPERATION SILENT PROTOCOL - IMMEDIATE ACTION
+
+
+CHIEF,
+INTELLIGENCE HAS CONFIRMED A NUCLEAR DEVICE IS COMPROMISED AND WITHIN BERLIN.
+HOSTILE ELEMENTS WILL ATTEMPT TO SMUGGLE IT OUT OF THE CITY.
+
+
+THIS IS A CATEGORY ONE COVERT OPERATION.
+
+
+YOUR DIRECTIVES ARE AS FOLLOWS:
+1.  IDENTIFY **WHO** IS RESPONSIBLE FOR THE SMUGGLING OPERATION.
+2.  ASCERTAIN **WHERE** (THE ROUTE AND METHOD) IT WILL BE MOVED.
+3.  DISCOVER **WHEN** THE SMUGGLING ATTEMPT IS PLANNED.
+ONCE ALL THREE VECTORS ARE CONFIRMED, YOU ARE TO COORDINATE NEUTRALIZATION OF THE DEVICE.
+
+
+YOU HAVE 30 DAYS.
+
+
+GODSPEED AND GOOD LUCK.
+
+
+[TRANSMISSION END]
+
+
+-------------------------------------------------------------
+PRESS ENTER TO PROCEED...
+-------------------------------------------------------------
+
+
+ENTER
+
+
+[CLASSIFIED – EYES ONLY]
+[TRANSMISSION: 08:00 ZULU — 01 OCT 1985]
+[ORIGIN: CIA STATION BERLIN / HQ INTEL BRIEF]
+
+
+DAILY INTEL REPORT — October 1st, 1985
+
+
+1. Stasi increased surveillance at Checkpoint Charlie following rumors of planned defections; no arrests confirmed.
+2. Minor gas leak in Kreuzberg prompted brief evacuation; repairs completed overnight.
+3. Axel Springer (West German media magnate) died at age 73; funeral preparations underway.
+
+
+Weather Forecast — Berlin
+• Forecast high: 14 °C, low: 7 °C
+• Precipitation chance: 15 %
+• Notes: Morning mist (visibility ~0.8 km); sunny day; light drizzle after sunset; dense fog overnight.
+
+
+-------------------------------------------------------------
+PRESS ENTER TO PROCEED...
+-------------------------------------------------------------
+
+
+ENTER
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+08:00 OCT 1, 1985
+WEATHER: Morning Mist (7°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+3
+
+
+//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
+<< SECURE ACCESS PROTOCOL // ENCRYPTION ACTIVE // LEVEL 4 CLEARANCE >>
+-------------------------------------------------------------
+AUTHORIZED ACCESS: AGENT ROSTER
+-------------------------------------------------------------
+
+
+OPERATIVE OVERVIEW:
+
+
+CODE NAME    STATUS     HEALTH  STAMINA COMPOSURE ANONYMITY
+-------------------------------------------------------------
+1. ORION          READY   100     100     100       100
+2. SWAN           READY   100     100     100       100
+3. GHOST         READY  100     100     100       100
+4. SPECTRE     READY  100     100     100       100
+5. PHOENIX      READY 100     100     100       100
+6. SHADOW      READY  100     100     100       100
+
+
+
+
+-------------------------------------------------------------
+ENTER SELECTION TO VIEW PROFILE:
+
+
+7. RETURN TO MAIN MENU
+-------------------------------------------------------------
+[CRC: 4A7B] [TRANSIT_MODE: SECURE] [SESSION_ID: WB01_OPR_237A]
+//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
+
+
+1
+
+
+//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
+<< SECURE ACCESS PROTOCOL // ENCRYPTION ACTIVE // LEVEL 4 CLEARANCE >>
+────────────────────────────────────────────────────────────────────
+ CENTRAL INTELLIGENCE AGENCY
+ OPERATIVE PERSONNEL FILE
+────────────────────────────────────────────────────────────────────
+ DOCUMENT ID: 47-119-HB/ORION
+ CLEARANCE LEVEL: TOP SECRET – EYES ONLY
+ DIVISION: Special Activities Division (SAD), Ground Branch
+ POSTING: West Berlin, Federal Republic of Germany
+────────────────────────────────────────────────────────────────────
+ ████████████████ OPERATIVE PROFILE ████████████████
+────────────────────────────────────────────────────────────────────
+ CODE NAME: ORION
+ TRUE NAME: Elias Monroe Richter
+ CITIZENSHIP: United States of America
+ SEX: Male
+ DOB: 18 March 1949 (Age 36)
+ PLACE OF BIRTH: Butte, Montana, USA
+ EYE COLOR: Ice Blue
+ HAIR COLOR: Ash Blonde
+ HEIGHT: 6’1”
+ WEIGHT: 178 lbs
+ LANGUAGES: English (native), German (fluent), Arabic (conversational), Russian (functional)
+ COVER IDENTITY: Security Consultant, ArrowPoint International Ltd.
+ NOTABLE MARKS: Burn scarring on left shoulder blade (approx. 4″×2″)
+ PSYCH EVAL: Detached affect; lacks emotional reactivity under duress. Operates well without oversight.
+ CLEARANCE: Level 5 Operative – Black-Level Deployment
+────────────────────────────────────────────────────────────────────
+ CORE SKILL RATINGS
+────────────────────────────────────────────────────────────────────
+ Stealth: 92
+ Combat: 90
+ Deception: 56
+ Interrogation: 62
+ Infiltration: 74
+ Technical Ops: 43
+ Information Ops: 38
+ Intel Gathering: 81
+────────────────────────────────────────────────────────────────────
+ AGENT ATTRIBUTES
+────────────────────────────────────────────────────────────────────
+ Health: 100
+ Stamina: 100
+ Composure: 100
+ Anonymity: 100
+────────────────────────────────────────────────────────────────────
+ STATUS: READY
+────────────────────────────────────────────────────────────────────
+ BACKGROUND
+────────────────────────────────────────────────────────────────────
+ Richter began his career as a Marine Corps Force Recon enlistee (1968–71). Discharged following undisclosed disciplinary proceedings, he resurfaced in off-books paramilitary outfits across Africa and the Middle East, mastering discreet elimination techniques.
+ Recruited by the Agency in 1980 for his operational autonomy and surgical precision, Richter now operates under deep commercial cover in West Berlin. He serves as the regional strike asset for operations requiring deniable lethal action against high-value targets.
+ Psychological assessments describe him as impervious to stress, with an emotional flattening that permits rapid, unhesitating execution. Not recommended for missions demanding interpersonal nuance—his strength lies in cold precision and autonomous decision-making.
+────────────────────────────────────────────────────────────────────
+ REMARKS & NOTES
+────────────────────────────────────────────────────────────────────
+ • Executes kill-confirm-exfil protocols with 100% mission success.
+ • Resistant to behavioral conditioning; handles extreme pressure well.
+ • Best deployed solo—minimal oversight required.
+ • Recommend quarterly psychological debriefs to guard against operational fray.
+────────────────────────────────────────────────────────────────────
+ENTER SELECTION:
+
+
+1. ORDER REST (8 HOURS)
+2. ORDER REST (16 HOURS)
+3. ARRANGE THERAPY SESSION
+4. ADMINISTER STIMULANTS
+5. SEND TO HOSPITAL
+6. SEND TO SAFEHOUSE FOR RECOVERY
+7. RETURN TO AGENT ROSTER
+-------------------------------------------------------------
+[CRC: 4A7B] [TRANSIT_MODE: SECURE] [SESSION_ID: WB01_OPR_237A]
+//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
+
+
+1
+
+
+-------------------------------------------------------------
+COMMAND RECEIVED: ORDERING ORION TO REST FOR 8 HOURS.
+ORION IS NOW RESTING. EXPECT RECOVERY OF HEALTH, STAMINA,
+AND COMPOSURE OVER TIME.
+-------------------------------------------------------------
+PRESS ENTER TO PROCEED…
+
+
+Or 2
+
+
+-------------------------------------------------------------
+COMMAND RECEIVED: ORDERING ORION TO REST FOR 16 HOURS.
+ORION IS NOW RESTING. EXPECT SIGNIFICANT RECOVERY OF HEALTH,
+STAMINA, AND COMPOSURE.
+-------------------------------------------------------------
+
+
+Or 3
+
+
+-------------------------------------------------------------
+COMMAND RECEIVED: ARRANGING THERAPY SESSION FOR ORION.
+ORION WILL UNDERGO SESSION. EXPECT SIGNIFICANT COMPOSURE
+RECOVERY AND MINOR ANONYMITY RECOVERY.
+-------------------------------------------------------------
+
+
+Or 5
+
+
+-------------------------------------------------------------
+COMMAND RECEIVED: SENDING ORION TO HOSPITAL.
+ORION IS BEING TRANSFERRED. EXPECT FULL HEALTH RECOVERY
+OVER SEVERAL DAYS.
+-------------------------------------------------------------
+
+
+Or 6
+
+
+-------------------------------------------------------------
+COMMAND RECEIVED: SENDING ORION TO SAFEHOUSE.
+ORION IS NOW AT SAFEHOUSE. EXPECT RECOVERY OF ANONYMITY
+OVER SEVERAL DAYS.
+-------------------------------------------------------------
+
+
+Or 4
+
+
+-------------------------------------------------------------
+COMMAND RECEIVED: ADMINISTERING STIMULANTS TO ORION.
+ORION RECEIVES IMMEDIATE BOOST TO STAMINA. COMPOSURE MAY BE
+TEMPORARILY COMPROMISED.
+-------------------------------------------------------------
+
+
+ENTER
+
+
+//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
+<< SECURE ACCESS PROTOCOL // ENCRYPTION ACTIVE // LEVEL 4 CLEARANCE >>
+-------------------------------------------------------------
+AUTHORIZED ACCESS: AGENT ROSTER
+-------------------------------------------------------------
+
+
+OPERATIVE OVERVIEW:
+
+
+CODE NAME    STATUS     HEALTH  STAMINA COMPOSURE ANONYMITY
+-------------------------------------------------------------
+1. ORION       RESTING    100     100     100       100
+2. SWAN        THERAPY    100     100     100       100
+3. GHOST       STIMULATED 100     100     100       100
+4. SPECTRE     HOSPITAL   100     100     100       100
+5. PHOENIX     SAFEHOUSE  100     100     100       100
+6. SHADOW      IN FIELD   100     100     100       100
+
+
+-------------------------------------------------------------
+ENTER SELECTION TO VIEW PROFILE:
+
+
+7. RETURN TO MAIN MENU
+-------------------------------------------------------------
+[CRC: 4A7B] [TRANSIT_MODE: SECURE] [SESSION_ID: WB01_OPR_237A]
+//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
+
+
+7
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+09:00 OCT 1, 1985
+WEATHER: Morning Mist (7°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+2
+
+
+█████████████████████████████████████████████████████ █████████                                                                                              ███████
+█                                                    DIE WELT                                                             █
+█                  UNABHÄNGIGE TAGESZEITUNG FÜR DEUTSCHLAND                    █
+█████████████████████████████████████████████████████
+DATE: OCT 1, 1985
+
+
+TOP STORIES:
+-------------------------------------------------------------
+1.  GORBACHEV SEEKS COMMON GROUND WITH PARIS
+    Mikhail Gorbachev is emphasizing his visit to Paris as a step
+    towards remembering and fostering an old friendship between
+    the Soviet Union and France.
+
+
+2.  OPENING TRAIN DEPARTS PARIS
+    A special "opening train" with guests from the German and
+    French governments and European communities is set to depart
+    from Paris, symbolizing a new initiative in German-French
+    cooperation.
+
+
+3.  AMBROSIO UNDER JARUZELSKI'S "OFFER"
+    The Catholic Church in Poland is cautious about General Jaruzelski's
+    "offer" for cooperation, especially concerning the role of the Church
+    in social issues.
+
+
+4.  FOREIGN OFFICE INSISTS ON RÜDESHEIM INQUIRY
+    The Foreign Office insists on its inquiry regarding the Rüdesheim
+    wine festival, where a Soviet journalist was prevented from attending.
+
+
+5.  REAGAN INVITES TO WESTERN SUMMIT
+    President Reagan has invited Western leaders to a summit ahead
+    of his meeting with Mikhail Gorbachev in Geneva, aiming to discuss
+    their common stance before the East-West talks.
+-------------------------------------------------------------
+
+
+1.  RETURN TO MAIN MENU
+-------------------------------------------------------------
+
+
+1
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+09:00 OCT 1, 1985
+WEATHER: Morning Mist (7°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+4
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+ACCESSING: INTEL FILES ARCHIVE - LOCATIONS
+-------------------------------------------------------------
+
+
+AVAILABLE FILES:
+
+
+EAST BERLIN SECTOR
+-------------------------------------------------------------
+1. MITTE (EAST)
+    - Diplomatic Complex (Soviet Embassy)
+    - Police Station (Volkspolizei Station – Alexanderplatz)
+    - Checkpoint Station (Friedrichstraße Station)
+    - Opera House (State Opera House)
+    - Cinema (Kino International)
+    - Tourist Attraction (Museum of East/West Reunification)
+    - Industrial Dockyard (Westhafen Dockyard)
+    - Freight Hub (Keller Shipping & Freight)
+
+
+2. LICHTENBERG (EAST)
+    - Intelligence Headquarters (Stasi HQ – Normannenstraße)
+    - Detention Center (Stasi Prison – Hohenschönhausen)
+    - Electronics Plant (VEB Electronics Factory)
+
+
+WEST BERLIN SECTOR
+-------------------------------------------------------------
+3. FRIEDRICHSHAIN-KREUZBERG (WEST / BORDERLAND)
+    - Border Crossing (Checkpoint Charlie)
+    - Bohemian Café (Café Mitternacht)
+    - Counterculture Venue (Punk Club SO36)
+
+
+4. CHARLOTTENBURG-WILMERSDORF (WEST)
+    - Transit Station (Bahnhof Zoo)
+    - Signals Intelligence Site (Teufelsberg Listening Station)
+    - Diplomatic Complex (British Embassy)
+    - Upscale Nightclub (The Red Lantern Club)
+    - Private Office (NeueWelt Arms Trading Co.)
+    - Financial Institution (DeutscheBank Branch Office)
+
+
+5. TEMPELHOF-SCHÖNEBERG (WEST)
+    - Airport (Tempelhof Airport)
+    - Broadcast Facility (RIAS Radio Station)
+    - Department Store (Kaufhaus des Westens – KaDeWe)
+    - Legal Complex (Courthouse & Records Hall)
+    - Municipal Repository (City Archives)
+
+
+6. STEGLITZ-ZEHLENDORF (WEST)
+    - Administrative Compound (U.S. Mission Berlin)
+    - Military Coordination Center (NATO Command Annex)
+    - Bridge & Exchange Point (Glienicke Bridge)
+
+
+7. SPANDAU (WEST)
+    - Airbase (RAF Gatow)
+
+
+8. REINICKENDORF (WEST)
+    - Airport (Tegel Airport)
+
+
+9. TIERGARTEN (WEST / CENTRAL)
+    - Government Building (West German Interior Ministry)
+    - Police Headquarters (West Berlin Police Station)
+    - Public Park (Volkspark)
+    - Transit Station (Berlin Hauptbahnhof)
+-------------------------------------------------------------
+
+
+ENTER SELECTION (e.g., "1" to view Mitte details):
+
+
+10. SEARCH PERSONNEL FILES
+11. RETURN TO MAIN MENU
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+1
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+INTEL FILES: MITTE (EAST) OVERVIEW
+-------------------------------------------------------------
+REGION DESCRIPTION:
+Mitte, the historical heart of Berlin, stands as the administrative and
+cultural core of East Germany's capital. Its wide boulevards, monumental
+buildings, and iconic landmarks like Alexanderplatz betray a bustling
+center heavily controlled by the SED regime. It is a critical nexus of
+power, surveillance, and international intrigue, home to key governmental
+and diplomatic installations, and a constant battleground for intelligence
+operations.
+
+
+LOCATIONS IN MITTE (EAST):
+-------------------------------------------------------------
+1.  Diplomatic Complex (Soviet Embassy)
+2.  Police Station (Volkspolizei Station – Alexanderplatz)
+3.  Checkpoint Station (Friedrichstraße Station)
+4.  Opera House (State Opera House)
+5.  Cinema (Kino International)
+6.  Tourist Attraction (Museum of East/West Reunification)
+7.  Industrial Dockyard (Westhafen Dockyard)
+8.  Freight Hub (Keller Shipping & Freight)
+-------------------------------------------------------------
+
+
+ENTER SELECTION TO VIEW LOCATION FILE, OR USE SEARCH:
+
+
+9.  SEARCH PERSONNEL FILES
+10. RETURN TO INTEL FILES ARCHIVE
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+1
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+INTEL FILES: DIPLOMATIC COMPLEX (SOVIET EMBASSY)
+-------------------------------------------------------------
+LOCATION DESCRIPTION:
+The Soviet Embassy in East Berlin is more than a diplomatic mission;
+it's a fortress of Soviet power and a hub for espionage activities.
+Located in the heart of Mitte, it serves as a base for KGB and GRU
+operations, overseeing a network of agents and informants throughout
+East Germany and beyond. It is heavily guarded, technologically
+sophisticated, and a prime target for Western intelligence efforts.
+
+
+PERSONNEL FILES:
+-------------------------------------------------------------
+1.  Colonel Mikhail Vlasov – KGB Rezident (running sleeper agents)
+2.  Tatiana Petrova – Cultural attaché (recruiting academics)
+3.  Sergei Koslov – GRU officer (stealing NATO tech)
+4.  Ludmilla Fischer – Secretary (Stasi double agent)
+-------------------------------------------------------------
+
+
+ENTER SELECTION TO VIEW PERSONNEL FILE:
+
+
+5.  RETURN TO MITTE (EAST) OVERVIEW
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+3
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+<<<<<<<<<<<<<<<<<<< PERSONNEL DOSSIER >>>>>>>>>>>>>>>>>>>>
+-------------------------------------------------------------
+INTEL FILE: SERGEI KOSLOV - GRU OFFICER
+-------------------------------------------------------------
+NAME:            Sergei Koslov
+AFFILIATION:     GRU (Glavnoye Razvedyvatelnoye Upravleniye - Main
+                 Intelligence Directorate)
+RANK:            Officer (Estimated Captain/Major)
+LOCATION:        Soviet Embassy, East Berlin
+PRIMARY ROLE:    Technical Espionage (Acquisition of NATO Technology)
+THREAT LEVEL:    HIGH
+
+
+*** KNOWN ACTIVITIES ***
+- Oversees GRU asset network focused on scientific and industrial
+  targets in West Berlin.
+- Directly involved in recent acquisition attempts of encrypted
+  communications hardware prototypes.
+- Utilizes sophisticated counter-surveillance techniques; direct
+  observation yields minimal actionable intel.
+
+
+*** BACKGROUND NOTES ***
+- Born: Leningrad, USSR (1950)
+- Education: Leningrad Institute of Precision Mechanics and Optics.
+- Military Service: GRU technical corps, specialized in signal intelligence.
+- Family: Believed to have estranged relatives residing legally in West Germany
+  since 1979. (UNCONFIRMED CONTACT: Status UNKNOWN)
+
+
+*** POTENTIAL WEAKNESSES ***
+- UNKNOWN. Previous attempts at psychological profiling inconclusive.
+- NOTE: The presence of family in the West *could* represent a point of
+  leverage, though their current relationship to Koslov is speculative.
+
+
+-------------------------------------------------------------
+SELECT ACTION:
+
+
+1.  ATTACH FILE TO CORKBOARD
+2.  RETURN TO DIPLOMATIC COMPLEX (SOVIET EMBASSY) FILE
+3.  RETURN TO MITTE (EAST) OVERVIEW
+4.  RETURN TO INTEL FILES ARCHIVE (LOCATIONS)
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+1
+
+
+-------------------------------------------------------------
+FILE ATTACHED TO CORKBOARD.
+-------------------------------------------------------------
+
+
+4 then SEARCH
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+INTEL FILES ARCHIVE: PERSONNEL SEARCH
+-------------------------------------------------------------
+
+
+ENTER PERSONNEL NAME (OR PARTIAL NAME) TO SEARCH:
+
+
+-------------------------------------------------------------
+TYPE 'BACK' TO RETURN TO INTEL FILES ARCHIVE (LOCATIONS)
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+BACK then 11
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+09:00 OCT 1, 1985
+WEATHER: Morning Mist (7°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+6
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[INTEL_BOARD_LOADING]]]                                     ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((BOARD_RENDERING_COMPLETE))                                  ||
++=================================================================+
+/////////////////////////////////////////////////////////////
+///      CORKBOARD: ACTIVE LEADS & OPEN INVESTIGATIONS    ///
+/////////////////////////////////////////////////////////////
+
+
+[ ] CURRENT MISSIONS:
+    (NONE ACTIVE)
+
+
+[ ] INTELLIGENCE LEADS:
+    .........................................................
+    1.  Suspicious shipments detected at Westhafen Dockyard.
+        Unexplained cargo movements; origin and destination unknown.
+    .........................................................
+    2.  Reports of NATO intelligence compromised by an informant
+        within Stasi ranks. Identify the source.
+    .........................................................
+    3.  Preliminary indicators suggest GRU officer Sergei Koslov
+        is considering defection. Assess timing and opportunity.
+    .........................................................
+    4.  Rumors of Stasi officer Klaus Fiedler seeking asylum.
+        Verify authenticity and potential value.
+    .........................................................
+    5.  Irregular but persistent jamming disrupting RIAS Radio
+        broadcasts. Source and motive unknown.
+    .........................................................
+    6.  Persistent rumors of black-market blueprints exchanged
+        at Punk Club SO36. Verify if actionable intel.
+    .........................................................
+    7.  Derelict vehicle found near Checkpoint Charlie. Preliminary
+        investigation indicates no intelligence value.
+    .........................................................
+    8.  Series of unexplained fires in Neukölln. Local police
+        investigating, no apparent link to intelligence operations.
+    .........................................................
+
+
+ENTER SELECTION:
+
+
+9.  RETURN TO MAIN COMMAND PROMPT
+/////////////////////////////////////////////////////////////
++=================================================================+
+
+
+1
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[AGENT_ASSIGNMENT_PROTOCOL]]]                               ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((OPERATION_INITIATED))                                       ||
++=================================================================+
+LEAD TARGET: Suspicious shipments detected at Westhafen Dockyard.
+             Unexplained cargo movements; origin and destination unknown.
+MISSION TYPE: Intel Gathering
+
+
+CURRENT CONDITIONS:
+TIME: 09:00 OCT 1, 1985
+WEATHER: Morning Mist (7°C)
+
+
+MISSION PARAMETERS:
+-------------------------------------------------------------
+ESTIMATED DURATION: 4-6 Hours
+APPLICABLE BONUSES/PENALTIES: None
+-------------------------------------------------------------
+
+
+AVAILABLE AGENTS:
+-------------------------------------------------------------
+1.  AGENT: ORION
+    SKILLS: Intel Gathering [81]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+2.  AGENT: SWAN
+    SKILLS: Intel Gathering [88]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+3.  AGENT: GHOST
+    SKILLS: Intel Gathering [62]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+4.  AGENT: EMBER
+    SKILLS: Intel Gathering [66]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+5.  AGENT: VELVET
+    SKILLS: Intel Gathering [89]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+6.  AGENT: ASH
+    SKILLS: Intel Gathering [88]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+7.  AGENT: NOVA
+    SKILLS: Intel Gathering [77]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+8.  AGENT: JACKAL
+    SKILLS: Intel Gathering [64]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+
+
+ENTER SELECTION TO ASSIGN AGENT:
+
+
+9.  RETURN TO CORKBOARD
++=================================================================+
+
+
+2
+
+
+**AGENT SWAN ASSIGNED TO LEAD: SUSPICIOUS SHIPMENTS. MISSION INITIATED.**
+PRESS ENTER TO RETURN TO CORKBOARD
+
+
+ENTER
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[INTEL_BOARD_LOADING]]]                                     ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((BOARD_RENDERING_COMPLETE))                                  ||
++=================================================================+
+/////////////////////////////////////////////////////////////
+///      CORKBOARD: ACTIVE LEADS & OPEN INVESTIGATIONS    ///
+/////////////////////////////////////////////////////////////
+
+
+[ ] CURRENT MISSIONS:
+    (NONE ACTIVE)
+
+
+[ ] INTELLIGENCE LEADS:
+    .........................................................
+    1.  [ACTIVE] Suspicious shipments detected at Westhafen Dockyard.
+        (Agent SWAN assigned. Est. Completion: 4-6 Hours.)
+    .........................................................
+    2.  Reports of NATO intelligence compromised by an informant
+        within Stasi ranks. Identify the source.
+    .........................................................
+    3.  Preliminary indicators suggest GRU officer Sergei Koslov
+        is considering defection. Assess timing and opportunity.
+    .........................................................
+    4.  Rumors of Stasi officer Klaus Fiedler seeking asylum.
+        Verify authenticity and potential value.
+    .........................................................
+    5.  Irregular but persistent jamming disrupting RIAS Radio
+        broadcasting. Source and motive unknown.
+    .........................................................
+    6.  Persistent rumors of black-market blueprints exchanged
+        at Punk Club SO36. Verify if actionable intel.
+    .........................................................
+    7.  Derelict vehicle found near Checkpoint Charlie. Preliminary
+        investigation indicates no intelligence value.
+    .........................................................
+    8.  Series of unexplained fires in Neukölln. Local police
+        investigating, no apparent link to intelligence operations.
+    .........................................................
+
+
+ENTER SELECTION:
+
+
+9.  RETURN TO MAIN COMMAND PROMPT
+/////////////////////////////////////////////////////////////
++=================================================================+
+
+
+1
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[MISSION_STATUS_PROTOCOL]]]                                 ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((REPORT_GENERATED))                                          ||
++=================================================================+
+INVESTIGATION: Suspicious shipments detected at Westhafen Dockyard.
+MISSION TYPE: Intel Gathering
+
+
+ASSIGNED AGENT: SWAN
+-------------------------------------------------------------
+CURRENT STATUS: Active
+ESTIMATED DURATION: 4-6 Hours remaining.
+-------------------------------------------------------------
+OPERATIONAL DETAILS:
+* SWAN's Intel Gathering skill: [88]
+* Current time and weather: 09:00 OCT 1, 1985 / Morning Mist (7°C)
+* No active bonuses or penalties impacting this mission.
+-------------------------------------------------------------
+
+
+ENTER COMMAND:
+
+
+1. RETURN TO CORKBOARD
++=================================================================+
+
+
+1
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[INTEL_BOARD_LOADING]]]                                     ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((BOARD_RENDERING_COMPLETE))                                  ||
++=================================================================+
+/////////////////////////////////////////////////////////////
+///      CORKBOARD: ACTIVE LEADS & OPEN INVESTIGATIONS    ///
+/////////////////////////////////////////////////////////////
+
+
+[ ] CURRENT MISSIONS:
+    (NONE ACTIVE)
+
+
+[ ] INTELLIGENCE LEADS:
+    .........................................................
+    1.  [ACTIVE] Suspicious shipments detected at Westhafen Dockyard.
+        (Agent SWAN assigned. Est. Completion: 4-6 Hours.)
+    .........................................................
+    2.  Reports of NATO intelligence compromised by an informant
+        within Stasi ranks. Identify the source.
+    .........................................................
+    3.  Preliminary indicators suggest GRU officer Sergei Koslov
+        is considering defection. Assess timing and opportunity.
+    .........................................................
+    4.  Rumors of Stasi officer Klaus Fiedler seeking asylum.
+        Verify authenticity and potential value.
+    .........................................................
+    5.  Irregular but persistent jamming disrupting RIAS Radio
+        broadcasting. Source and motive unknown.
+    .........................................................
+    6.  Persistent rumors of black-market blueprints exchanged
+        at Punk Club SO36. Verify if actionable intel.
+    .........................................................
+    7.  Derelict vehicle found near Checkpoint Charlie. Preliminary
+        investigation indicates no intelligence value.
+    .........................................................
+    8.  Series of unexplained fires in Neukölln. Local police
+        investigating, no apparent link to intelligence operations.
+    .........................................................
+
+
+ENTER SELECTION:
+
+
+9.  RETURN TO MAIN COMMAND PROMPT
+/////////////////////////////////////////////////////////////
++=================================================================+
+
+
+9
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+10:00 OCT 1, 1985
+WEATHER: Morning Mist (7°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+7
+
+
+ENTER HOURS TO ADVANCE (0-24): 
+
+
+10 time advances but is interrupted by…
+
+
+*** INCOMING TRANSMISSION ***
+
+
+        PRESS ENTER TO RECEIVE
+
+
+ENTER
+
+
+═════════════════════════════════════════════════════════════════
+[SECURE_OVERRIDE_ACTIVE] [URGENT_MESSAGE_PRIORITY_ALPHA] [SYSTEM_PING_OK]
+═════════════════════════════════════════════════════════════════
+[CLASSIFIED – EYES ONLY]
+[TRANSMISSION: 16:00 — 01 OCT 1985]
+[ORIGIN: FIELD AGENT SWAN / WEST BERLIN]
+[RE: WESTHAFEN DOCKYARD - INITIAL RECON]
+
+
+Full surveillance with limited ambient audio. Confirmed crate
+markings linked to Prague shipment flagged last quarter. Unidentified
+lead operative visible; face matches profile from prior industrial
+sabotage file. Transmission burst recorded from Bay B at 03:14,
+signal routed through East Berlin relay.
+
+
+All indicators suggest pre-op staging for high-priority asset movement.
+
+
+– END –
+
+
+New actions available:
+- Re-establish surveillance for clearer coverage.
+- Attempt to trace license plate fragment.
+- Infiltrate Bay B for crate inspection.
+- Investigate courier uniform source.
+- Trace outgoing transmission signal.
+
+
+PRESS ENTER TO CONTINUE
+═════════════════════════════════════════════════════════════════
+
+
+ENTER
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+20:00 OCT 1, 1985
+WEATHER: Evening Chill (5°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+6
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[INTEL_BOARD_LOADING]]]                                     ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((BOARD_RENDERING_COMPLETE))                                  ||
++=================================================================+
+/////////////////////////////////////////////////////////////
+///      CORKBOARD: ACTIVE LEADS & OPEN INVESTIGATIONS    ///
+/////////////////////////////////////////////////////////////
+
+
+[ ] CURRENT MISSIONS:
+    .........................................................
+    1.  WESTHAFEN DOCKYARD: High-Priority Asset Movement
+        STATUS: New Intel Received.
+    .........................................................
+
+
+[ ] INTELLIGENCE LEADS:
+    .........................................................
+    2.  Reports of NATO intelligence compromised by an informant
+        within Stasi ranks. Identify the source.
+    .........................................................
+    3.  Preliminary indicators suggest GRU officer Sergei Koslov
+        is considering defection. Assess timing and opportunity.
+    .........................................................
+    4.  Rumors of Stasi officer Klaus Fiedler seeking asylum.
+        Verify authenticity and potential value.
+    .........................................................
+    5.  Irregular but persistent jamming disrupting RIAS Radio
+        broadcasting. Source and motive unknown.
+    .........................................................
+    6.  Persistent rumors of black-market blueprints exchanged
+        at Punk Club SO36. Verify if actionable intel.
+    .........................................................
+    7.  Derelict vehicle found near Checkpoint Charlie. Preliminary
+        investigation indicates no intelligence value.
+    .........................................................
+    8.  Series of unexplained fires in Neukölln. Local police
+        investigating, no apparent link to intelligence operations.
+    .........................................................
+
+
+ENTER SELECTION:
+
+
+9.  RETURN TO MAIN COMMAND PROMPT
+/////////////////////////////////////////////////////////////
++=================================================================+
+
+
+9
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+20:00 OCT 1, 1985
+WEATHER: Evening Chill (5°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+4
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+ACCESSING: INTEL FILES ARCHIVE - LOCATIONS
+-------------------------------------------------------------
+
+
+AVAILABLE FILES:
+
+
+EAST BERLIN SECTOR
+-------------------------------------------------------------
+1. MITTE (EAST)
+    - Diplomatic Complex (Soviet Embassy)
+    - Police Station (Volkspolizei Station – Alexanderplatz)
+    - Checkpoint Station (Friedrichstraße Station)
+    - Opera House (State Opera House)
+    - Cinema (Kino International)
+    - Tourist Attraction (Museum of East/West Reunification)
+    - Industrial Dockyard (Westhafen Dockyard)
+    - Freight Hub (Keller Shipping & Freight)
+
+
+2. LICHTENBERG (EAST)
+    - Intelligence Headquarters (Stasi HQ – Normannenstraße)
+    - Detention Center (Stasi Prison – Hohenschönhausen)
+    - Electronics Plant (VEB Electronics Factory)
+
+
+WEST BERLIN SECTOR
+-------------------------------------------------------------
+3. FRIEDRICHSHAIN-KREUZBERG (WEST / BORDERLAND)
+    - Border Crossing (Checkpoint Charlie)
+    - Bohemian Café (Café Mitternacht)
+    - Counterculture Venue (Punk Club SO36)
+
+
+4. CHARLOTTENBURG-WILMERSDORF (WEST)
+    - Transit Station (Bahnhof Zoo)
+    - Signals Intelligence Site (Teufelsberg Listening Station)
+    - Diplomatic Complex (British Embassy)
+    - Upscale Nightclub (The Red Lantern Club)
+    - Private Office (NeueWelt Arms Trading Co.)
+    - Financial Institution (DeutscheBank Branch Office)
+
+
+5. TEMPELHOF-SCHÖNEBERG (WEST)
+    - Airport (Tempelhof Airport)
+    - Broadcast Facility (RIAS Radio Station)
+    - Department Store (Kaufhaus des Westens – KaDeWe)
+    - Legal Complex (Courthouse & Records Hall)
+    - Municipal Repository (City Archives)
+
+
+6. STEGLITZ-ZEHLENDORF (WEST)
+    - Administrative Compound (U.S. Mission Berlin)
+    - Military Coordination Center (NATO Command Annex)
+    - Bridge & Exchange Point (Glienicke Bridge)
+
+
+7. SPANDAU (WEST)
+    - Airbase (RAF Gatow)
+
+
+8. REINICKENDORF (WEST)
+    - Airport (Tegel Airport)
+
+
+9. TIERGARTEN (WEST / CENTRAL)
+    - Government Building (West German Interior Ministry)
+    - Police Headquarters (West Berlin Police Station)
+    - Public Park (Volkspark)
+    - Transit Station (Berlin Hauptbahnhof)
+-------------------------------------------------------------
+
+
+ENTER SELECTION (e.g., "1" to view Mitte details):
+
+
+10. SEARCH PERSONNEL FILES
+11. RETURN TO MAIN MENU
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+1
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+INTEL FILES: MITTE (EAST) OVERVIEW
+-------------------------------------------------------------
+REGION DESCRIPTION:
+Mitte, the historical heart of Berlin, stands as the administrative and
+cultural core of East Germany's capital. Its wide boulevards, monumental
+buildings, and iconic landmarks like Alexanderplatz betray a bustling
+center heavily controlled by the SED regime. It is a critical nexus of
+power, surveillance, and international intrigue, home to key governmental
+and diplomatic installations, and a constant battleground for intelligence
+operations.
+
+
+LOCATIONS IN MITTE (EAST):
+-------------------------------------------------------------
+1.  Diplomatic Complex (Soviet Embassy)
+2.  Police Station (Volkspolizei Station – Alexanderplatz)
+3.  Checkpoint Station (Friedrichstraße Station)
+4.  Opera House (State Opera House)
+5.  Cinema (Kino International)
+6.  Tourist Attraction (Museum of East/West Reunification)
+7.  Industrial Dockyard (Westhafen Dockyard)
+8.  Freight Hub (Keller Shipping & Freight)
+-------------------------------------------------------------
+
+
+ENTER SELECTION TO VIEW LOCATION FILE, OR USE SEARCH:
+
+
+9.  SEARCH PERSONNEL FILES
+10. RETURN TO INTEL FILES ARCHIVE
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+7
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>INTELLIGENCE_STREAM_INITIATED<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_IN_PROGRESS::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+INTEL FILES: INDUSTRIAL DOCKYARD (WESTHAFEN DOCKYARD)
+-------------------------------------------------------------
+LOCATION DESCRIPTION:
+Westhafen Dockyard is a vital industrial hub in East Berlin, serving as a key
+point for shipping and receiving goods. Its strategic importance makes it a
+potential target for both espionage and sabotage. Recent intelligence indicates
+increased activity, unusual guard rotations, and confirmed crate markings
+linked to a Prague shipment. An unidentified lead operative, matching a
+prior industrial sabotage profile, has been sighted.
+
+
+PERSONNEL FILES:
+-------------------------------------------------------------
+1. Crane Operator Fritz Keller – Crane Operator (Possible Stasi saboteur)
+2. Night Guard Lars Braun – Night Guard (Suspected of accepting bribes; may turn a blind eye to illicit activities)
+3. Otto – Smuggler (Known smuggler; potential for involvement in illegal transport operations)
+-------------------------------------------------------------
+
+
+ENTER SELECTION TO VIEW PERSONNEL FILE:
+
+
+4. ADD DOCKYARD INTEL TO CORKBOARD
+5. RETURN TO MITTE (EAST) OVERVIEW
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+
+
+4
+
+
+-------------------------------------------------------------
+FILE ATTACHED TO CORKBOARD.
+-------------------------------------------------------------
+
+
+Then 5 and 10 and 11
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+20:00 OCT 1, 1985
+WEATHER: Evening Chill (5°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+6
+
+
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[INTEL_BOARD_LOADING]]]                                     ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((BOARD_RENDERING_COMPLETE))                                  ||
++=================================================================+
+/////////////////////////////////////////////////////////////
+///      CORKBOARD: ACTIVE LEADS & OPEN INVESTIGATIONS    ///
+/////////////////////////////////////////////////////////////
+
+
+[ ] CURRENT MISSIONS:
+    .........................................................
+    1.  WESTHAFEN DOCKYARD: High-Priority Asset Movement
+        STATUS: New Intel Received.
+    .........................................................
+
+
+[ ] INTELLIGENCE LEADS:
+    .........................................................
+    2.  Reports of NATO intelligence compromised by an informant
+        within Stasi ranks. Identify the source.
+    .........................................................
+    3.  Preliminary indicators suggest GRU officer Sergei Koslov
+        is considering defection. Assess timing and opportunity.
+    .........................................................
+    4.  Rumors of Stasi officer Klaus Fiedler seeking asylum.
+        Verify authenticity and potential value.
+    .........................................................
+    5.  Irregular but persistent jamming disrupting RIAS Radio
+        broadcasting. Source and motive unknown.
+    .........................................................
+    6.  Persistent rumors of black-market blueprints exchanged
+        at Punk Club SO36. Verify if actionable intel.
+    .........................................................
+    7.  Derelict vehicle found near Checkpoint Charlie. Preliminary
+        investigation indicates no intelligence value.
+    .........................................................
+    8.  Series of unexplained fires in Neukölln. Local police
+        investigating, no apparent link to intelligence operations.
+    .........................................................
+
+
+ENTER SELECTION:
+
+
+9.  RETURN TO MAIN COMMAND PROMPT
+/////////////////////////////////////////////////////////////
++=================================================================+
+
+
+1
+
+
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+>>>ACCESS_GRID_001<<< >>>NETWORK_ALPHA_SECURE<<< >>>MISSION_BRIEFING<<<
+::DATA_PROTOCOL_ACTIVE:: ::FILE_ACCESS_LEVEL_3:: ::DECRYPTION_COMPLETE::
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+-------------------------------------------------------------
+MISSION BRIEFING: WESTHAFEN DOCKYARD OPERATION
+-------------------------------------------------------------
+MISSION STATUS: New Intel Received.
+LOCATION: Westhafen Dockyard, Mitte (East Berlin)
+OVERVIEW: Agent Swan's reconnaissance confirms high-priority asset movement.
+          An unidentified operative, matching a prior industrial sabotage
+          profile, has been sighted. A transmission burst was detected.
+          This operation holds significant intelligence potential.
+
+
+ACTIONS AVAILABLE:
+-------------------------------------------------------------
+1.  Re-establish surveillance at Wilhelm Yard (Stealth/Intel)
+2.  Trace license plate fragment “VD-3X” (Technical/Intel)
+3.  Infiltrate Bay B (Infiltration/Stealth)
+4.  Investigate courier uniform source (Intel/Deception)
+5.  Trace outgoing transmission signal (Technical/Intel)
+-------------------------------------------------------------
+
+
+ENTER SELECTION TO DEPLOY AGENT:
+
+
+6. RETURN TO CORKBOARD
+-------------------------------------------------------------
+#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#==#
+3
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[AGENT_ASSIGNMENT_PROTOCOL]]]                               ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((OPERATION_INITIATED))                                       ||
++=================================================================+
+LEAD TARGET: Infiltrate Bay B at Westhafen Dockyard.
+MISSION TYPE: Infiltration
+
+
+CURRENT CONDITIONS:
+TIME: 20:00 OCT 1, 1985
+WEATHER: Evening Chill (5°C)
+
+
+MISSION PARAMETERS:
+-------------------------------------------------------------
+ESTIMATED DURATION: 16-24 Hours
+APPLICABLE BONUSES/PENALTIES:
+    +10% Night Operations Bonus
+    +5% Intel Preparation Bonus
+-------------------------------------------------------------
+
+
+AVAILABLE AGENTS:
+-------------------------------------------------------------
+1.  AGENT: ORION
+    SKILLS: Infiltration [85] | Stealth [70]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+2.  AGENT: SWAN
+    SKILLS: Infiltration [75] | Stealth [88]
+    ATTRIBUTES: Health [100] | Stamina [75] | Composure [100] | Anonymity [100]
+    NOTE: Rapid deployment incurs additional stamina penalty.
+-------------------------------------------------------------
+3.  AGENT: GHOST
+    SKILLS: Infiltration [68] | Stealth [82]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+4.  AGENT: EMBER
+    SKILLS: Infiltration [80] | Stealth [75]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+5.  AGENT: VELVET
+    SKILLS: Infiltration [89] | Stealth [65]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+6.  AGENT: ASH
+    SKILLS: Infiltration [70] | Stealth [88]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+7.  AGENT: NOVA
+    SKILLS: Infiltration [60] | Stealth [65]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+8.  AGENT: JACKAL
+    SKILLS: Infiltration [55] | Stealth [60]
+    ATTRIBUTES: Health [100] | Stamina [100] | Composure [100] | Anonymity [100]
+-------------------------------------------------------------
+
+
+ENTER SELECTION TO ASSIGN AGENT:
+
+
+9.  RETURN TO CORKBOARD
++=================================================================+
+
+
+3
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[CONFIRM_DEPLOYMENT]]]                                      ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((CALCULATING_PROBABILITY))                                   ||
++=================================================================+
+AGENT DEPLOYMENT CONFIRMATION:
+-------------------------------------------------------------
+AGENT SELECTED: GHOST
+MISSION: INFILTRATE BAY B (WESTHAFEN DOCKYARD)
+PRIMARY SKILL: Infiltration
+SECONDARY SKILL: Stealth
+
+
+AGENT GHOST ATTRIBUTES:
+    Health [85] | Stamina [80] | Composure [90] | Anonymity [88]
+
+
+AGENT GHOST SKILLS (Adjusted):
+    - Infiltration: 61.0% (Primary)
+    - Stealth:      74.5% (Secondary)
+
+
+APPLIED BONUSES:
+    - Night Operations: +10%
+    - Intel Preparation: +5%
+
+
+PREDICTED SUCCESS RATE: 66.7%
+-------------------------------------------------------------
+
+
+ENTER SELECTION:
+
+
+1. CONFIRM DEPLOYMENT
+2. CANCEL (RETURN TO AGENT SELECTION)
++=================================================================+
+
+
+1
+
+
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| (((AGENT_DEPLOYMENT_SUCCESS)))                                ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((OPERATION_INITIATED))                                       ||
++=================================================================+
+AGENT GHOST HAS BEEN DEPLOYED.
+MISSION: INFILTRATE BAY B (WESTHAFEN DOCKYARD)
+PREDICTED SUCCESS: 66.7%
+ESTIMATED COMPLETION: 16-24 hours (approx.)
+
+
+AWAITING MISSION REPORT.
+
+
+PRESS ENTER TO CONTINUE
++=================================================================+
+
+
++=================================================================+
+|| [[[SYSTEM_OVERRIDE_ALPHA]]] [[[SECURE_CHANNEL_DELTA]]]        ||
+|| [[[INTEL_BOARD_LOADING]]]                                     ||
+|| ((DATA_LINK_ESTABLISHED)) ((ACCESS_LEVEL_5_CONFIRMED))        ||
+|| ((BOARD_RENDERING_COMPLETE))                                  ||
++=================================================================+
+/////////////////////////////////////////////////////////////
+///      CORKBOARD: ACTIVE LEADS & OPEN INVESTIGATIONS    ///
+/////////////////////////////////////////////////////////////
+
+
+[ ] CURRENT MISSIONS:
+    .........................................................
+    1.  [ACTIVE] WESTHAFEN DOCKYARD: High-Priority Asset Movement
+        (Agent GHOST assigned - Est. Completion: 16-24 hours)
+    .........................................................
+
+
+[ ] INTELLIGENCE LEADS:
+    .........................................................
+    2.  Reports of NATO intelligence compromised by an informant
+        within Stasi ranks. Identify the source.
+    .........................................................
+    3.  Preliminary indicators suggest GRU officer Sergei Koslov
+        is considering defection. Assess timing and opportunity.
+    .........................................................
+    4.  Rumors of Stasi officer Klaus Fiedler seeking asylum.
+        Verify authenticity and potential value.
+    .........................................................
+    5.  Irregular but persistent jamming disrupting RIAS Radio
+        broadcasting. Source and motive unknown.
+    .........................................................
+    6.  Persistent rumors of black-market blueprints exchanged
+        at Punk Club SO36. Verify if actionable intel.
+    .........................................................
+    7.  Derelict vehicle found near Checkpoint Charlie. Preliminary
+        investigation indicates no intelligence value.
+    .........................................................
+    8.  Series of unexplained fires in Neukölln. Local police
+        investigating, no apparent link to intelligence operations.
+    .........................................................
+
+
+ENTER SELECTION:
+
+
+9.  RETURN TO MAIN COMMAND PROMPT
+/////////////////////////////////////////////////////////////
++=================================================================+
+
+
+9
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+20:00 OCT 2, 1985
+WEATHER: Cool (8°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+7 and advances time 12 hours.
+
+
+
+
+[CLASSIFIED – EYES ONLY]
+[TRANSMISSION: 08:00 ZULU — 02 OCT 1985]
+[ORIGIN: CIA STATION BERLIN / HQ INTEL BRIEF]
+
+
+DAILY INTEL REPORT — October 2nd, 1985
+
+
+1. Soviet patrols intensified near Glienicke Bridge after minor collision
+   with USMLM vehicle; no injuries reported.
+2. Stasi raided dissident art exhibit in Prenzlauer Berg, detaining eight
+   artists for distributing anti-regime pamphlets.
+3. West Berlin unemployment rises to 12.1%; protests planned near
+   Tempelhof Airport.
+
+
+Weather Forecast — Berlin
+• Forecast high: 13 °C, low: 5 °C
+• Precipitation chance: 25 %
+• Notes: Morning fog clearing to partly cloudy; light breeze; clear night.
+
+
+-------------------------------------------------------------
+PRESS ENTER TO PROCEED...
+-------------------------------------------------------------
+
+
+ENTER
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+08:00 OCT 2, 1985
+WEATHER: Chilly (6°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+7 and advance 16 hours but interrupted at 20:00 by…
+
+
+*** INCOMING TRANSMISSION ***
+
+
+        PRESS ENTER TO RECEIVE
+
+
+ENTER
+
+
+═════════════════════════════════════════════════════════════════
+[SECURE_OVERRIDE_ACTIVE] [URGENT_MESSAGE_PRIORITY_ALPHA] [SYSTEM_PING_OK]
+═════════════════════════════════════════════════════════════════
+[CLASSIFIED – EYES ONLY]
+[TRANSMISSION: 20:00 ZULU — 02 OCT 1985]
+[ORIGIN: FIELD STATION BRAVO / BERLIN]
+[RE: OPERATION CUTGLASS – FIELD INFILTRATION C-3]
+
+
+Agent completed limited crate inspection in Bay B. Multiple boxes contained advanced signal relay units, each labeled for distribution to separate facilities in East Berlin. Interior documents referenced “587-R Units” and shipment cycles aligning with previous observed activity. Surveillance photographs captured an individual coordinating the transfer, but identification remains pending.
+
+
+RECOMMENDATION:
+Operations appear organized and sustained. Recommend follow-up to identify on-site coordinator or link distribution sites.
+
+
+– OPERATIONAL RESULT: Requires another action to proceed. +50% bonus to next action.
+
+
+PRESS ENTER TO CONTINUE
+═════════════════════════════════════════════════════════════════
+
+
+ENTER
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+20:00 OCT 2, 1985
+WEATHER: Clear Night (5°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------
+
+
+5
+
+
+-------------------------------------------------------------
+TRANSMISSION LOGS: INCOMING MESSAGES
+-------------------------------------------------------------
+DATE: 20:00 OCT 2, 1985
+-------------------------------------------------------------
+
+
+LOG ENTRIES (CHRONOLOGICAL):
+
+
+-------------------------------------------------------------
+1. [01 OCT 1985 | 08:00 ZULU] NEW LEAD: WESTHAFEN DOCKYARD
+   SUMMARY: High-Priority Asset Movement identified.
+-------------------------------------------------------------
+2. [02 OCT 1985 | 20:00 ZULU] OPERATION CUTGLASS - FIELD INFILTRATION C-3
+   AGENT: GHOST
+   SUMMARY: Bay B crates inspected.
+   RESULT: Partial Failure - Follow-up Recommended.
+-------------------------------------------------------------
+ENTER SELECTION (VIEW TRANSMISSION #):
+
+
+9. RETURN TO MAIN COMMAND PROMPT
+-------------------------------------------------------------
+
+
+9
+
+
+-------------------------------------------------------------
+TERMINAL WB-01: BERLIN STATION
+-------------------------------------------------------------
+20:00 OCT 2, 1985
+WEATHER: Clear Night (5°C)
+EXPOSURE: LOW (0%)
+-------------------------------------------------------------
+ENTER COMMAND:
+
+
+1. ACCESS DAILY REPORT
+2. READ DIE WELT (NEWSPAPER)
+3. VIEW AGENT ROSTER
+4. EXAMINE INTEL FILES
+5. VIEW MISSION LOGS
+6. ANALYZE CORKBOARD
+7. ADVANCE TIME
+-------------------------------------------------------------

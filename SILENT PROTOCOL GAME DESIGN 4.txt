@@ -1,0 +1,408 @@
+﻿SILENT PROTOCOL GAME DESIGN
+SILENT PROTOCOL: Core Game Mechanics & Data
+1. GAME CONCEPT
+* Genre: Strategic espionage game.
+* Setting: West Berlin, Cold War.
+* Player Role: Covert operations chief.
+* Perspective: Command-and-control from an office desk.
+* Primary Interface: Teletype machine for all intelligence and operational feedback (textual).
+* Initial Version: Python text interface.
+* Narrative (Initial Version): Structured narrative. Procedural generation is a long-term goal.
+* Randomization (Initial Version): Only outcomes of player action rolls.
+* Main Objective: Locate and neutralize a stolen nuclear bomb ("MAIN Mission").
+* Mission Structure:
+   * MAIN Mission requires completion of 3 "CORE missions."
+   * Each CORE mission comprises 3 "SIDE missions."
+   * SIDE missions must be completed sequentially within their chain.
+   * CORE missions can be completed in any order.
+* "ALTERNATIVE missions": Optional missions providing strategic bonuses for the MAIN Mission.
+* Mission Resolution: Skill checks involving an agent's primary skill, and secondary skill if listed. Influenced by agent attributes and external factors (e.g., weather).
+2. ORDER OF GAME
+* Game Start: CIA command informs player of a stolen nuclear bomb; recovery and neutralization is the task.
+* Initial Objective: Determine WHERE the bomb will be smuggled, WHO will smuggle it, and WHEN the attempt will occur. All three pieces of information are required.
+* Daily Cycle:
+   * Player receives a "DAILY REPORT" containing local Berlin updates, a weather report, and new leads.
+   * Reports introduce environmental modifiers (bonuses/penalties to missions).
+* Gameplay Loop: Lead Investigation and Action Execution.
+
+   * Leads can be a SIDE MISSION, an ALTERNATIVE MISSION, or a DEAD END. Player is unaware of type until completion.
+   * Alternative missions may branch from side missions.
+   * Lead Investigation: Assign an agent. Success (random roll based on "Intel Phase Success Levels") reveals 0-5 actionable options.
+   * Action Execution: Assign an agent.
+
+      * Failure: Player must attempt another action; failure may incur penalties or grant bonuses to the next action in that chain.
+      * Success: Yields a new lead, requiring further investigation.
+      * Completion of the 3rd side mission in a chain reveals one critical piece of intelligence (WHO, WHERE, or WHEN) for the corresponding core mission.
+      * Agent Deployment: Agents are unavailable for 6-24 hours while on missions. Outcome reported via teletype; attributes adjusted.
+      * Time Passage: Segmented into morning, day, evening, night. Affects attribute adjustments (e.g., stamina restoration).
+      * Mission Success Factors: Agent attributes, weather, time of day, local events, accumulated bonuses/penalties.
+      * Pressure System:
+      * Global Time Limit: 30 days to complete the MAIN mission.
+      * Exposure Rating: Tracks enemy awareness. High exposure leads to mission failure.
+      * Final Mission:
+      * Unlocked after completing all 3 CORE missions.
+      * Multi-stage operation requiring multiple agents and a sequence of actions.
+      * Outcome heavily influenced by bonuses from completed core/alternative missions and the current status of deployed agents.
+      * Resolution detailed via teletype.
+3. AGENT SKILLS
+      * Agents have 8 core skills. Missions require a primary skill; secondary skill applied if listed.
+      * Skills List:
+      * Stealth: Move undetected, avoid observation.
+      * Combat: Hand-to-hand and firearms proficiency.
+      * Deception: Lying, impersonation, maintaining cover.
+      * Interrogation: Extracting information (conversation, coercion, psychological tactics).
+      * Infiltration: Bypassing physical security (locks, alarms).
+      * Technical Ops: Handling, disabling, or installing electronic devices/gadgets.
+      * Information Ops: Forgery, encryption, data manipulation, document creation/analysis.
+      * Intel Gathering: Observation, research, recording intelligence (during Intel phases).
+4. AGENT ATTRIBUTES
+      * Represent an agent's current condition and effectiveness. All attributes start at 100 (no penalty).
+      * Adjusted Skill Calculation:
+      * Adjusted Skill = Base Skill - Total Attribute Penalties.
+      * Adjusted Skill can exceed 100% before a final cap of 95% ("Final Skill") is applied.
+      * Maximum cumulative penalty from all relevant attributes for a skill is 50% (if all attributes are 0).
+      * Penalty Coefficients (per point attribute is below 100):
+      * Strong Contribution: 0.25% (max 25% penalty per strong attribute).
+      * Moderate Contribution: 0.15% (max 15% penalty per moderate attribute).
+      * Weak Contribution: 0.10% (max 10% penalty per weak attribute).
+      * Individual Attribute Penalty: Penalty Contribution_Attr = (100 − Current Attr) × Coefficient_Attr, Skill.
+      * Core Attributes (start at 100):
+
+         * Health: Physical well-being. Low Health penalizes Combat and Stealth.
+
+            * Degradation: Combat failures (-10 Partial, -30 Total). Critical mission failure: chance of injury.
+            * Recovery: +10 Health per day (rest). Medical Facility: +20 Health per day if Health < 50 (costs -20 anonymity).
+            * Criticals: <10 Health = hospitalized 3 days. <30 Health = chance of permanent injury (max Health 70 post-recovery).
+            * Stamina: Physical and mental endurance. Low Stamina penalizes all skills as it degrades.
+
+               * Degradation: -10 per mission, additional -5 on mission failure.
+               * Recovery: +20 Stamina per 8 hours rest. +5 Stamina per day if idle.
+               * Health-Dependent Regeneration: Stamina recovery rate modified by current Health:
+
+                  * 75-100 Health: +0% modifier (full rate).
+                  * 50-74 Health: -25% recovery.
+                  * 25-49 Health: -50% recovery.
+                  * <25 Health: -75% recovery.
+                  * Criticals: <20 Stamina = collapse, automatic mission failure.
+                  * Risks at low Stamina:
+                  * ≤75: Minor Injury Risk = ((75−Stamina)×1.5%), -10 Health.
+                  * ≤50: Composure Damage Risk = ((50−Stamina)×1%), -5 to -15 Composure.
+                  * ≤20: Collapse Risk = ((20−Stamina)×5%), incapacitated 1 mission day.
+                  * Stimulants: One-time use per agent (lifetime). +25 Stamina, -10 Composure.
+                  * Composure: Psychological stability. Low Composure penalizes Deception, Intel Gathering, Interrogation.
+
+                     * Degradation: Mission failures (-5 Bare, -20 Total).
+                     * Recovery: Successful missions (+5 Solid, +10 Exceptional). +5 Composure per 8 hours rest/day. Therapy: +20 Composure (24h unavailable, one agent at a time, costs Resources).
+                     * Criticals: <30 Composure = panic, abandons mission.
+                     * Breakdown System: If Composure ≤50 during mission, ((50−Composure)×2%) chance of "Breakdown" (max 90%). Results in Critical Mission Failure, agent "Unusable" for 3 days (mandatory rest).
+                     * Anonymity: How hidden an agent's identity/cover is. Higher Anonymity reduces overall operation exposure risk.
+
+                        * Degradation: Mission success (-5 Solid or -10 Minimal, randomized). Failures (-15 to -25 for Total Failure). Exceptional Successes: no Anonymity loss.
+                        * Recovery: +10 Anonymity per day when idle. "Burn Cover Identity": one-time +20 Anonymity boost (permanent retirement of that cover).
+                        * Criticals: <40 Anonymity = +30% detection chance.
+                        * Risks at low Anonymity:
+                        * ≤50: Mission Penalty Risk = ((50−Anonymity)×2%), -25% penalty to mission success chance.
+                        * ≤25: Stasi Attack Risk (10% chance per time block, 4 checks/day). If attacked: 50% chance of injury. Agent hides in safehouse until Anonymity > 25 (recovers +5/day idle until ≥30).
+                        * Skill-Attribute Penalty Matrix:
+
+                           * Stealth: Strong: Anonymity, Moderate: Stamina, Weak: Health.
+                           * Combat: Strong: Health, Moderate: Stamina, Weak: Composure.
+                           * Deception: Strong: Composure, Moderate: Anonymity, Weak: Stamina.
+                           * Interrogation: Strong: Composure, Moderate: Anonymity, Weak: Stamina.
+                           * Infiltration: Strong: Anonymity, Moderate: Stamina, Weak: Composure.
+                           * Technical Ops: Strong: Composure, Moderate: Stamina, Weak: Anonymity.
+                           * Information Ops: Strong: Anonymity, Moderate: Composure, Weak: Stamina.
+                           * Intel Gathering: No attribute penalties.
+                           * Adjusted Skill Formula Example (Stealth): Adjusted Stealth = Base Stealth − [((100 − Anonymity) × 0.0025) + ((100 − Stamina) × 0.0015) + ((100 − Health) × 0.0010)] (Ensure result is between 5% and 100% after final cap of 95%).
+5. MISSION ACTION FORMULA
+                           * Determines success/failure probability for mission actions.
+                           * Base Success Chance: Agent's "Base Skill" for the primary skill (1-100%).
+                           * Combine Bonuses (Multiplicative): Bonuses stack with diminishing returns. Each bonus applies to the remaining gap to 100%. Formula: Total Bonus = 1 - ((1 - Bonus1) * (1 - Bonus2) * ...)
+                           * Combine Penalties (Multiplicative): Penalties stack, reducing the current success chance. Formula: Success Chance After Penalties = Current Success Chance * (1 - Penalty1) * (1 - Penalty2) * ... or effectively Total Penalty Multiplier = (1 - Penalty1) * (1 - Penalty2) * ..., so Final Chance = Base * Bonus_Effect * Penalty_Effect. The GDD states 1 - ((1 - 0.25) × (1 - 0.25)) = 0.4375 as a penalty amount, implying Effective Success Multiplier = (1-Penalty1)*(1-Penalty2).
+6. INJURY MECHANICS
+                           * Triggered by: Mission failures (especially Total Failure), Stamina collapse, Stasi attacks.
+                           * Healing:
+                           * Natural Recovery (Resting): +10 Health per day. (Note: Chosen over source 158's +5 Health/day for consistency with Health attribute section).
+                           * Medical Treatment: +15 Health per day. Requires "Medical Supplies."
+                           * Permanent Injuries: Require specialized intervention (prosthetics, surgery) for mitigation. Requires "Advanced Medical Supplies" and a "Medical Facility."
+                           * Injury Table: See Appendix A.
+7. WEATHER TYPES & EFFECTS
+                           * Dynamic environmental modifiers affecting missions.
+                           * Forecast provided in Daily Intel Report.
+                           * Weather Effects Table: See Appendix E (Weather Conditions) and Appendix I (Daily Weather Reports for Oct 1985).
+8. SKILL PROGRESSION SCALING (CRITICAL SUCCESS BONUSES)
+                           * Agents improve skills on critical mission success. Applies to primary skill and actively contributing secondary skill.
+                           * Primary Skill Increase: max(1, floor((100 − Current Skill) × 0.05))
+                           * Secondary Skill Increase: max(1, floor((100 − Current Skill) × 0.02))
+9. COMPREHENSIVE ACTION DURATION ESTIMATION SYSTEM
+                           * Provides estimated time ranges for Mission Actions and Intel Gathering.
+                           * Special Orders (Rest, Therapy, etc.): Fixed, short durations (e.g., 1 hour).
+                           * A. Base Action Durations:
+
+                              * Mission Actions: 16 - 24 hours.
+                              * Intel Gathering: 12 - 20 hours.
+                              * B. Dynamic Modifiers: Applied sequentially. Percentage adjustments use original Base Duration.
+
+                                 * Initial Range: Current_Min_Hours = Base_Min_Duration, Current_Max_Hours = Base_Max_Duration.
+                                 * Mission Primary Skill Type Base Adjustments (flat hours, not for Intel Gathering):
+
+                                    * Combat: Min +2h, Max +2h.
+                                    * Stealth: Min -2h, Max -2h.
+                                    * Information Ops: Max +2h.
+                                    * Deception: Min -2h.
+                                    * Interrogation: Max -2h.
+                                    * Infiltration: Min +2h.
+                                    * Technical Ops: Min -1h, Max +1h.
+                                    * Agent Primary Skill Multiplicative Adjustment:
+
+                                       * Skill_Percentage_Adjustment = ((Agent's Relevant Primary Skill - 50.5) / 49.5) * 0.15
+                                       * Duration_Multiplier_Skill = 1 - Skill_Percentage_Adjustment
+                                       * Current_Min_Hours *= Duration_Multiplier_Skill
+                                       * Current_Max_Hours *= Duration_Multiplier_Skill
+                                       * Agent Attribute Impact (penalty to max duration):
+
+                                          * Attribute_Penalty_Percentage = ((100 - Agent's Relevant Attribute Score) / 99) * 0.15
+                                          * Stamina Impact (Combat, Infiltration, Stealth, Tech Ops): Add (original Base Max Duration * Attribute_Penalty_Percentage) to Current_Max_Hours.
+                                          * Composure Impact (Deception, Interrogation, Info Ops, Intel Gathering): Add (original Base Max Duration * Attribute_Penalty_Percentage) to Current_Max_Hours.
+                                          * External Factors (Weather - from Daily Intel):
+
+                                             * Heavy Snow/Rain: Current_Max_Hours += 0.10 * original Base Max Duration.
+                                             * Blizzard/Extreme Fog (<0.5km): Current_Max_Hours += 0.25 * original Base Max Duration.
+                                             * Clear/Optimal: Current_Min_Hours -= 0.05 * original Base Min Duration.
+                                             * Time of Day:
+
+                                                * Night Bonus (Stealth, Deception, Infiltration, Info Ops, Intel Gathering AT Night): Current_Min_Hours -= 0.05 * original Base Min Duration.
+                                                * Daytime Penalty (Stealth, Deception, Infiltration, Info Ops IN Day/Unfavorable Time): Current_Max_Hours += 0.05 * original Base Max Duration.
+                                                * C. Final Range & Actual Duration:
+                                                * Round Current_Min/Max_Hours to nearest whole hour.
+                                                * Min displayed duration ≥ 1 hour; range width ≥ 1 hour.
+                                                * Actual time taken: Randomly determined within [Final Min Hours - Final Max Hours].
+11. TIME ADVANCEMENT SYSTEM
+                                                * Time measured in hours and days. Day: morning, day, evening, night.
+                                                * Advances via player actions (consuming time) and manual "Advance Time" option. Agent actions consume 6-24 hours; issuing an action generally consumes 1 hour.
+                                                * Consequences of Time Passage: New intel (daily reports), mission modifiers from daily intel, agent attribute adjustments, exposure consequences (Stasi attacks if low anonymity).
+                                                * Time Limit: 30 days for MAIN mission.
+                                                * UI: Constantly visible clock (time, date, weather).
+12. MISSION SYSTEM & CONTENT
+                                                * Missions start as "leads," investigated to reveal actionable options.
+                                                * Mission chains viewable on "corkboard."
+                                                * Mission Type Obfuscation: Player doesn't know if a lead is core, alternative, or side until completion. Core mission completion is signaled by uncovering WHO, WHERE, or WHEN intel.
+                                                * Action Selection Information: Objective, required skills, bonuses/penalties, estimated time.
+                                                * Agent Selection Information: List of agents with skills, attributes, current bonuses/penalties.
+                                                * Mission Success/Failure: Roll check against agent's adjusted skill with modifiers. Outcomes based on "Mission Action Success Levels." Consequences: injury, compromised intel, bonus resources, penalty to next action, new lead. Final mission is binary win/lose.
+                                                * Alternative Missions: Grant bonuses to final mission (e.g., +10% Stealth).
+                                                * Main Mission Completion: Requires WHO, WHERE, and WHEN from CORE missions. Player then plans final mission, can await specific time. Final mission: "execute operation Thunderbolt."
+                                                * Mission Types List: See Appendix F.
+13. AGENT MANAGEMENT & PROGRESSION
+                                                * Player starts with a pre-set agent roster.
+                                                * Special Agent Actions (via roster profile): Rest, stimulants, therapy, safehouse.
+                                                * Progression: Small XP and skill gain (5% skill bonus subject to diminishing returns on primary skill) on critical successes. No dedicated training system.
+                                                * Critical Mission Failure Consequences: Penalty to agent's next mission, chance of injury (random from injury table, severity influenced by existing injuries), greater attribute degradation.
+14. EXTERNAL FACTORS & DYNAMIC EVENTS
+                                                * Weather and time of day (based on historical Oct 1985 West Berlin data) apply bonuses/penalties.
+                                                * Daily intel reports provide weather forecasts and list local events/enemy activity that may modify missions (can be narrative).
+                                                * Future: Random event system, dynamic political climate (not in initial version).
+15. USER INTERFACE (UI) & PRESENTATION
+                                                * Theme: "Behind the desk POV," Cold War espionage. Teletype is central for information.
+                                                * Desk UI Elements & Functions:
+
+                                                   * Teletype Machine: Primary information display, mission results, intel delivery. (Python: 80s terminal style).
+                                                   * Mission Logs Folder: Access to historical mission reports.
+                                                   * Agent's Files: Review agent profiles, attributes, issue special orders.
+                                                   * Corkboard: Visual representation of mission threads, clues.
+                                                   * Clock: Displays current game time and weather.
+                                                   * Filing Cabinet: Access to categorized intelligence files.
+                                                   * Die Welt Newspaper: Daily news, local updates, political context.
+                                                   * Safe: Access to special equipment for missions.
+                                                   * Window: Visual representation of current weather.
+                                                   * Input (Python): Numbered options.
+                                                   * Visual Style: Pixelated retro (e.g., "Papers, Please").
+                                                   * Audio: Teletype sounds, suspenseful music, weather sounds.
+                                                   * Teletype Templates: See Appendix G.
+16. GAME STATE & PERSISTENCE
+                                                   * Data to Save: Current Time; Mission Progress (active/completed missions, leads investigated, actions taken); Agent Stats (skills, attributes, injuries); Acquired Bonuses/Penalties; Inventory (if implemented).
+                                                   * Saving/Loading: Auto-save only. No manual saving or multiple save slots.
+                                                   * Single-player only.
+17. NARRATIVE & WORLD
+                                                   * Setting: 1985 West Berlin. Integrates real elements like Die Welt newspapers.
+                                                   * Player Interaction: Isolated command; no direct NPC interaction. Operates via agents and teletype.
+                                                   * Setting Influence: Specific locations (Appendix C), political tensions, espionage themes.
+18. TECHNICAL CONSIDERATIONS (Initial Version)
+                                                   * Environment: Python (text-based interface, core logic).
+                                                   * Persistence: Client-side game state persistence.
+19. AGENTS
+                                                   * Detailed personnel files. All attributes start at 100.
+                                                   * Agent Roster & Core Skills: See Appendix B.
+20. LEADS AT START OF GAME
+                                                   * Predefined leads branching into core, alternative, or dead ends.
+                                                   * Core Mission Leads:
+                                                   * WHERE: "Suspicious shipments at Westhafen Dockyard."
+                                                   * WHO: "Stasi informant leaking NATO intel."
+                                                   * WHEN: "GRU officer Sergei Koslov defecting."
+                                                   * Alternative Mission Leads:
+                                                   * AM1: "Stasi officer Klaus Fiedler seeks asylum" (Defector’s Gambit).
+                                                   * AM2: "RIAS Radio jamming detected" (Radio Jammer/Signal Hunt).
+                                                   * AM3: "Punk Club SO36 black-market rumors" (Blueprint Hunt - branching).
+                                                   * Dead End Leads:
+                                                   * DE1: "Abandoned truck near Checkpoint Charlie."
+                                                   * DE2: "Mysterious fires in Neukölln."
+21. COMPLETE MISSION FLOW CHART
+                                                   * A visual blueprint mapping mission interconnectedness, dependencies, and bonus links exists (document refers to it but does not contain the chart itself).
+22. CORE MISSION OUTLINES
+                                                   * Detailed breakdown of objectives and actions for WHO, WHERE, WHEN side missions.
+                                                   * CORE MISSION 1: WHERE (Target: Schönberg Crossing)
+
+                                                      * SM1.1: Investigate Night Traffic (Lead: Dockyard shipments) -> Obj: ID "Otto". Actions: Surveillance, trace plate, infiltrate bay, investigate uniform, trace signal. Outcome: "Otto" confirmed active.
+                                                      * SM1.2: Investigate Otto (Lead: Otto coordinating logistics) -> Obj: Locate Warehouse. Actions: Intercept courier, surveil Otto, bug safehouse, debrief contact, trace exfil. Outcome: Warehouse 47 identified.
+                                                      * SM1.3: Investigate Warehouse 47 (Lead: Warehouse 47 cargo) -> Obj: Retrieve Manifest. Actions: Rooftop/tunnel infiltration, fake delivery, bribe guard, diversionary fire, hack terminal. Outcome: Manifest reveals Schönberg Crossing.
+                                                      * CORE MISSION 2: WHO (Target: Colonel Anika Voss / "Valkyrie")
+
+                                                         * SM2.1: Find the Mole (Lead: Stasi informant leaking) -> Obj: Find Mole. Actions: Bug phones, interrogate suspect, plant false intel, recruit double agent, hack embassy. Outcome: Elsa Meier identified as mole.
+                                                         * SM2.2: Silence the Mole (Lead: Neutralize Elsa Meier) -> Obj: Silence Mole. Actions: Ambush, frame, intercept dead drop, blackmail, poison. Outcome: Valkyrie's alias "Sparrow" revealed.
+                                                         * SM2.3: Identify Valkyrie (Lead: Link "Sparrow" to Stasi officer) -> Obj: ID Valkyrie. Actions: Steal files, bribe archivist, decrypt messages, surveil Colonel, turn defector. Outcome: Valkyrie is Colonel Anika Voss.
+                                                         * CORE MISSION 3: WHEN (Target: 0445h, November 1)
+
+                                                            * SM3.1: Extract the Defector (Lead: GRU officer Koslov defecting) -> Obj: Extract Koslov. Actions: Ambush escort, bribe guard, fake death, interrogate, smuggle out. Outcome: Koslov mentions "Project Z," Stasi insider Ludmilla Fischer.
+                                                            * SM3.2: Turn the Insider (Lead: Ludmilla Fischer disillusioned) -> Obj: Turn Fischer. Actions: Blackmail, offer asylum, bug office, fake arrest, swap files. Outcome: Fischer reveals "Project Z" documents at VEB Electronics Factory.
+                                                            * SM3.3: Steal the Cargo Logs (Lead: Decrypt "Project Z" manifests) -> Obj: Steal Logs. Actions: Infiltrate factory, bribe foreman, hack terminal, sabotage grid, interrogate worker. Outcome: Confirms bomb transit 0445h, Nov 1.
+23. CORE MISSIONS WITH ALTERNATE MISSIONS
+                                                            * Core Mission 1 (WHERE): Leads to Schönberg Crossing. No specific alternate branches listed here.
+                                                            * Core Mission 2 (WHO): Leads to Col. Anika Voss.
+
+                                                               * From SM2.1 (Interrogate Helen Bauer), secondary lead "Helen mentions...‘Nightingale’" can trigger AM2.1: Stasi Double Agent. Missions: Infiltrate police HQ, Turn/expose mole. Bonus: +10% Deception in Final Mission.
+                                                               * From SM2.2 (Ambush Elsa Meier), secondary lead "Elsa’s notes mention a dead drop in Volkspark" can trigger AM2.2: Dead Drop Trap. Mission: Investigate drop (Stealth). Result: Empty decoy (Dead End).
+                                                               * Core Mission 3 (WHEN): Leads to 0445h, Nov 1.
+
+                                                                  * From SM3.1 (Extract Sergei Koslov), secondary lead "Sergei warns of ‘Project Zeta’ backup convoy" can trigger AM3.1: Project Zeta Fallout. Missions: Trace convoy (Tech/Intel), Sabotage vehicles (Combat) OR Interrogate Officer Brandt. Result: Sabotage -> +10% Tech Ops bonus; Interrogate -> Dead End.
+
+                                                                     * Optional AM3.1b: Radio Jammer can also branch here, leading to a Dead End.
+                                                                     * From SM3.2 (Turn Ludmilla Fischer), secondary lead "Ludmilla reveals safehouse with bomb triggers" can trigger AM3.2: Safehouse Shadow. Mission: Steal schematics (Infiltration). Bonus: +10% Infiltration in Final Mission.
+24. STANDALONE ALTERNATE MISSIONS (From Initial Leads)
+                                                                     * AM1: Defector’s Gambit (Trigger: "Stasi officer Klaus Fiedler seeks asylum"). Missions: Verify Fiedler (Deception/Intel), Extract him (Stealth/Combat), Decrypt weak points (Technical). Bonus: +10% Stealth in Final Mission.
+                                                                     * AM2: Signal Hunt (Trigger: "RIAS Radio jamming detected"). Missions: Locate transmitter (Technical), Infiltrate site (Infiltration), Sabotage equipment (Combat). Bonus: +10% Tech Ops in Final Mission.
+                                                                     * AM3: Blueprint Heist (Trigger: "Punk Club SO36 black-market rumors"). Missions: Infiltrate club (Stealth), Find blueprints (Intel). Branching: Steal from Stasi liaison -> +10% Infiltration bonus; OR Raid KGB buyer -> Dead End.
+25. DEAD ENDS
+                                                                     * Leads that consume time/resources but yield no progress. No additional penalties.
+                                                                     * Starting Dead Ends:
+                                                                     * "Abandoned truck near Checkpoint Charlie" -> Empty cargo.
+                                                                     * "Mysterious fires in Neukölln" -> Arson by children.
+26. FINAL MISSION: OPERATION: BLACK HORIZON - THE BERLIN GAMBIT
+                                                                     * Objective: Neutralize the Bomb at Schönberg Crossing.
+                                                                     * Parameters: 0445h, Nov 1, Schönberg Crossing. Target: Colonel Anika Voss.
+                                                                     * Bonuses: Stacked from specific Alternative Missions: +10% Stealth (Defector’s Gambit), +10% Tech Ops (Signal Hunt/Project Zeta), +10% Infiltration (Safehouse Shadow/Blueprint Heist). Agent status also impacts.
+                                                                     * Mechanics:
+                                                                     * Player-Chosen Theme (at start): Covert Infiltration, Deceptive Maneuver, or Direct Assault. Influences choices.
+                                                                     * 3 Stages: Each requires 2 agents (Primary Skill, Secondary Skill), presents 3 choices (one aligns with theme).
+                                                                     * Cumulative score from stages determines overall success.
+                                                                     * Stage 1: Ingress & Preparation
+                                                                     * Objective: Establish position, prep zone, gain intel.
+                                                                     * Choices (Skills: Agent 1 Primary / Agent 2 Secondary):
+                                                                     * Covert: 1. Concealed Overwatch (Stealth/Info Ops), 2. Undetected Zone Entry & Sensors (Infiltration/Tech Ops), 3. Perimeter Network Compromise (Tech Ops/Info Ops).
+                                                                     * Deceptive: 1. Minor Traffic Incident (Deception/Info Ops), 2. Impersonated Authority (Deception/Info Ops), 3. Isolated Guard Coercion (Interrogation/Stealth).
+                                                                     * Assault: 1. Precision Convoy Disabling (Combat/Infiltration), 2. Checkpoint Pre-emptive Breach (Combat/Tech Ops), 3. Calculated Diversionary Skirmish (Combat/Deception).
+                                                                     * Outcome: Perfect (3pts), Good (2pts), Compromised (1pt), Failed (0pts).
+                                                                     * Stage 2: Acquisition & Engagement
+                                                                     * Objective: Intercept convoy, neutralize security, seize warhead.
+                                                                     * Choices:
+                                                                     * Covert: 1. Vehicle Ghosting (Stealth/Infiltration), 2. Warhead Security Override (Tech Ops/Info Ops), 3. Silent Guard Takedowns (Stealth/Combat).
+                                                                     * Deceptive: 1. False Inspection (Deception/Tech Ops), 2. Orchestrated Malfunction (Deception/Info Ops), 3. Voss Personnel Coercion (Interrogation/Deception).
+                                                                     * Assault: 1. Convoy Ambush (Combat/Tech Ops), 2. Focused Transport Assault (Combat/Infiltration), 3. Voss Hostage Situation (Combat/Deception).
+                                                                     * Outcome: Nuke Secured (Clean) (4pts), Nuke Secured (Contested) (2pts), Nuke Compromised (0pts).
+                                                                     * Stage 3: Extraction & Escape
+                                                                     * Objective: Transport warhead and agents out of West Berlin.
+                                                                     * Choices:
+                                                                     * Covert: 1. Underground Passage (Stealth/Infiltration), 2. Disguised Cargo Transit (Deception/Tech Ops), 3. Real-Time Surveillance Avoidance (Info Ops/Tech Ops).
+                                                                     * Deceptive: 1. Impersonated Diplomatic Convoy (Deception/Info Ops), 2. City-Wide Diversion (Deception/Tech Ops), 3. Corrupt Official Extortion (Interrogation/Deception).
+                                                                     * Assault: 1. Armored Convoy Breakout (Combat/Tech Ops), 2. Aerial Evac Point Assault (Combat/Infiltration), 3. Calculated Urban Ambush (Combat/Stealth).
+                                                                     * Outcome: Nuke Secured (Clean Extraction) (4pts), Nuke Secured (Hot Extraction) (2pts), Nuke Compromised (0pts).
+                                                                     * Stage 4: Mission Debriefing
+                                                                     * Total Score (0-11 pts) from Stages 1-3.
+                                                                     * Degrees of Success: Decisive Victory (10-11), Tactical Triumph (7-9), Limited Success (4-6), Critical Failure (0-3). Each has specific narrative and impact.
+                                                                     * Teletype Messages: Specific outcome messages for each phase based on score and theme are provided in sources (Examples of these should be available to the AI).
+27. FIRST CORE MISSION (Example Structure)
+                                                                     * This table structure from source illustrates mission progression: | Side Mission | Objective | Player Actions (Choices) | Success Outcome | | :----------- | :----------------- | :-------------------------------------------------------------------- | :--------------------- | | 1 | Identify Smuggler | Bugging, bribery, posing as buyer, shipment interception, rumor-following | Otto Weber | | 2 | Locate Warehouse | Tail Weber, customs hack, worker bribe, surveillance, comms intercept | Warehouse 47 | | 3 | Retrieve Manifest | Sneak infiltration, fake delivery, bribe guard, set diversion, hack terminal | Schönberg Crossing & Date |
+32. INTEL PHASE SUCCESS LEVELS
+                                                                     * Determines number of actionable options revealed from investigating a lead.
+                                                                     * Level 0: 0 actions.
+                                                                     * Level 1: 1 action.
+                                                                     * Level 2: 2 actions.
+                                                                     * Level 3: 3 actions.
+                                                                     * Level 4: 4 actions.
+                                                                     * Level 5: 5 actions + 10% Bonus to subsequent mission actions in that chain.
+33. MISSION ACTION SUCCESS LEVELS
+                                                                     * Defines consequences for each agent action during a mission.
+                                                                     * Level 0 – Failure: No progress. Potential negative repercussions. Follow-up action in same chain gets -10% penalty.
+                                                                     * Level 1 – Minimal Success: Incomplete, follow-up required. No bonus to next attempt.
+                                                                     * Level 2 – Limited Success: Incomplete, follow-up required. +25% bonus to next attempt.
+                                                                     * Level 3 – Solid Success: Incomplete, follow-up required. +50% bonus to next attempt.
+                                                                     * Level 4 – Full Success: Action completed successfully.
+                                                                     * Level 5 – Exceptional Success: Action completed with outstanding results. +10% bonus applies to the next mission in the same chain.
+35. RESOURCE SYSTEM
+                                                                     * Resources: General currency for operational funds/supplies.
+                                                                     * Acquisition: Successful missions (bonuses, specific outcomes), baseline daily/weekly income from HQ.
+                                                                     * Consumption:
+                                                                     * Therapy Sessions: e.g., 50 Resources/session.
+                                                                     * Medical Supplies (for Medical Treatment): e.g., 20 Resources/use.
+                                                                     * Advanced Medical Supplies (for Permanent Injury mitigation): e.g., 100 Resources/use.
+                                                                     * Equipment (if implemented): Acquisition/maintenance.
+________________
+
+
+APPENDICES
+Appendix A: Injury Table
+                                                                     * (As per sources. Tables for Minor, Moderate, and Major injuries detailing Health Loss, Penalty, Healing Time, and Permanent status must be used directly.)
+
+Minor Injuries (25 Total) (Example Entry - full table needed for AI) | Injury | Health Loss | Penalty | Healing Time | Permanent? | |----------------|-------------|----------------------------|--------------|------------| | Sprained Wrist | –10 | –20% Technical Ops | 3 days | No | | ... | ... | ... | ... | ... |
+
+Moderate Injuries (10 Total) (Example Entry - full table needed for AI) | Injury | Health Loss | Penalty | Healing Time | Permanent? | |----------------|-------------|-------------------------------------|--------------|-----------------| | Gunshot (Arm) | –25 | –40% Combat, –30% Infiltration | 14 days | Yes (–5 Health) | | ... | ... | ... | ... | ... |
+
+Major Injuries (5 Total) (Example Entry - full table needed for AI) | Injury | Health Loss | Penalty | Healing Time | Permanent? | |-----------------------|-------------|---------------------------------------|--------------|-------------------| | Compound Leg Fracture | –50 | Cannot perform Stealth/Infiltration | 30 days | Yes (–20 Health) | | ... | ... | ... | ... | ... |
+
+Appendix B: Agents
+                                                                        * (As per sources. Full profiles including Code Name, True Name, Sex, DOB, Skills, and initial Attributes (Health: 100, Stamina: 100, Composure: 100, Anonymity: 100) for all agents: ORION, SWAN, GHOST, EMBER, VELVET, ASH, NOVA, JACKAL must be used directly.)
+
+(Example Agent - full data for all agents needed for AI) ORION
+
+                                                                           * True Name: Elias Monroe Richter
+                                                                           * Sex: Male
+                                                                           * DOB: 18 March 1949 (Age 36)
+                                                                           * Core Skill Ratings: Stealth: 92, Combat: 90, Deception: 56, Interrogation: 62, Infiltration: 74, Technical Ops: 43, Information Ops: 38, Intel Gathering: 81
+                                                                           * Initial Attributes: Health: 100, Stamina: 100, Composure: 100, Anonymity: 100
+Appendix C: Locations
+                                                                           * (As per sources. The full categorized list of locations must be used directly.)
+                                                                           * GOVERNMENT & INTELLIGENCE LOCATIONS (Border Crossing (Checkpoint Charlie), Government Building, etc.)
+                                                                           * TRANSIT LOCATIONS (Berlin Hauptbahnhof, Tempelhof Airport, etc.)
+                                                                           * CIVIC & ADMINISTRATIVE (Courthouse & Records Hall, etc.)
+                                                                           * COMMERCIAL & INDUSTRIAL (TelexCom HQ, VEB Electronics Factory, etc.)
+                                                                           * CULTURAL & PUBLIC LOCATIONS (Café Mitternacht, Punk Club SO36, etc.)
+Appendix D: Characters
+                                                                           * (As per sources. The full list of characters with their associated locations and roles must be used directly.) (Example Entry - full list needed for AI)
+                                                                           * Border Crossing (Checkpoint Charlie):
+                                                                           * Captain Hans Schröder – East German border guard (takes bribes for escapes).
+                                                                           * ...
+Appendix E: Weather Conditions (General Effects)
+                                                                           * (As per source. The table detailing Weather type, Bonuses, Penalties, and Special Rules must be used directly.) | Weather | Bonuses | Penalties | Special Rules | |---------------|-----------------------|--------------------------------------------|---------------------------------------| | Clear Skies | +20% Intel Gathering | –15% Stealth, –10% Infiltration | | | Light Fog | +10% Stealth | –15% Combat | – | | Heavy Fog | +20% Stealth | –25% Combat, –20% Intel | Missions take 15% longer. | | Rain | +15% Stealth | –30% Infiltration | Electronics malfunction (+10% Tech Ops failure). | | Thunderstorm | +25% Stealth | –40% Combat, –30% Intel | No incoming intel reports. | | Snow | – | –25% Infiltration | | | Blizzard | +30% Stealth | –50% Stamina, –40% Combat/Intel | |
+Appendix F: Mission Types and Skills
+                                                                           * (As per sources. The full categorized list of mission types with their Primary and Secondary skills must be used directly.) (Example Category & Entries - full list needed for AI)
+                                                                           * Surveillance / Recon / Monitoring
+                                                                           * Surveil [person] at [location] | Primary: Stealth | Secondary: Information Ops
+                                                                           * Monitor activities at [location] during [event] | Primary: Information Ops | Secondary: Stealth
+                                                                           * ...
+Appendix G: Teletype Templates
+                                                                           * (As per sources. The structural templates for Daily Reports, Mission Outcomes (Success/Failure), New Intel Notifications, and Crisis Alerts, including example content snippets, must be available.)
+
+1. Daily Report Template Structure: Header, Local News, International News, Weather Forecast, Open Leads.
+
+2. Mission Outcome Template (Success) Structure: Header, Agent [Callsign] success statement, Brief narrative of action, Key intel gained/outcome, Recommendation.
+
+3. Mission Outcome Template (Failure/Partial) Structure: Header, Agent [Callsign] attempt statement, Brief narrative of failure, Statement of no intel/partial intel, Recommendation.
+
+4. New Intel / Lead Notification Structure: Header, Intel description, Source/implication, Recommendation.
+
+5. Crisis / Compromise Alert Structure: Header, URGENT, Agent [Callsign] & attribute details, Consequence, Recommendation.
+
+Appendix H: Daily Intel Reports (Sample Archive) with Impact - October 1985
+                                                                              * (As per source. The full table detailing Reported Date, Intel Report, Relevant Location, and Penalty/Bonus for October 1st to 31st, 1985, must be used directly.) | Reported Date | Intel Report | Relevant Location | Penalty/Bonus | |---------------|------------------------------------------------------------------------------|--------------------------------------|---------------------------------------------------------------| | 1 OCT 1985 | Stasi increased surveillance near Checkpoint Charlie... | Border Crossing (Checkpoint Charlie) | "-15% Stealth, -10% Infiltration at Checkpoint Charlie" | | ... | ... | ... | ... | | 31 OCT 1985 | Chaos at Brandenburg Gate protest; 14 arrested, Stasi tightens border controls. | Border Crossing (Checkpoint Charlie) | "-20% Infiltration, -15% Stealth at Checkpoint Charlie/border" |
+Appendix I: Weather Reports - Tempelhof Airport, October 1985
+                                                                              * (As per source. The full daily weather table for October 1st to 31st, 1985, with time blocks, Temp, Precip Chance, Actual Precip, Fog, Wind, Cloud Cover, and Notes must be used directly.) | Date | Time Block | Temp (°C) | Precip Chance | Actual Precip | Fog? | Wind (km/h) | Cloud Cover | Notes | |------------|------------|-----------|---------------|-----------------|------|-------------|---------------|--------------------------------| | 1985-10-01 | Morning | 9 | 15% | None | Yes | 12 | Partly Cloudy | Mist (visibility 0.8km) | | ... | ... | ... | ... | ... | ... | ... | ... | ... | | 1985-10-31 | Night | 1 | 5% | None | Yes | 5 | Clear | Freezing fog (visibility <0.2km) |
+                                                                              *
